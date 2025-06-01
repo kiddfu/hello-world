@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="l[`L/)Xf_s5rsPPD#D^B">mySprite</variable><variable type="KIND_SpriteKind" id="A_-7X%mi;L=97g+l%pDP">Player</variable><variable type="KIND_SpriteKind" id=".rEaTdZCGWuT-06k6Q.`">Projectile</variable><variable type="KIND_SpriteKind" id="y=wvkw=4z8YCI?=D1pQ0">Food</variable><variable type="KIND_SpriteKind" id="[cUUF_VFwDL9F-4k^c-8">Enemy</variable></variables><block type="pxt-on-start" id="m[fAjd:/u.e-bOanOF23" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="^WYBqqI@iti3Zi[V2-AG"><field name="VAR" id="l[`L/)Xf_s5rsPPD#D^B">mySprite</field><value name="VALUE"><shadow type="math_number" id="efsmhbBQDj#7f]ILUX8L"><field name="NUM">0</field></shadow><block type="spritescreate" id="9Zj,}0q.CrBN(+0OR,=G"><value name="img"><shadow type="screen_image_picker" id="@?LyWBa+4_73fOIl9?Wc"><field name="img">img`
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. . f e 2 f f f f f f 2 e f . . 
+. . f f f f e e e e f f f f . . 
+. f f e f b f 4 4 f b f e f f . 
+. f e e 4 1 f d d f 1 4 e e f . 
+. . f e e d d d d d d e e f . . 
+. . . f e e 4 4 4 4 e e f . . . 
+. . e 4 f 2 2 2 2 2 2 f 4 e . . 
+. . 4 d f 2 2 2 2 2 2 f d 4 . . 
+. . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="5Jusf6r_|j5V5j2R4K,|"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="Y}#V3j[IoAd*24Gx}P@8"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="this"><block type="variables_get" id="~v^_4dT8smgQNBGy!z~K"><field name="VAR" id="l[`L/)Xf_s5rsPPD#D^B">mySprite</field></block></value><value name="text"><shadow type="text" id="TM.fOxVp2ZlnsplNp9(?"><field name="TEXT">:)</field></shadow></value><value name="timeOnScreen"><shadow type="timePicker" id="0+qo%cXW?C?ukD!lUmFj"><field name="ms">500</field></shadow></value><value name="animated"><shadow type="logic_boolean" id="rqq^Z~}Z6JOe,Z[Ed=q9"><field name="BOOL">TRUE</field></shadow></value></block></next></block></statement></block></xml>
